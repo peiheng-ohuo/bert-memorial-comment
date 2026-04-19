@@ -1,3 +1,5 @@
+# bert-memorial-comment
+
 This is a working paper.
 
 [中文](README.md) | English
@@ -6,8 +8,5 @@ I attempt to use Qing‑era memorials (zouzhe) and comments (zhupi) to study the
 
 I fine‑tuned [GuwenBERT](https://github.com/Ethan-yt/guwenbert) models to learn the relationship between memorial titles and specific comment labels. The strong performance of these models helps illustrate the procedural nature of the emperor's delegation of decision-making authority.
 
-I will gradually upload the code and data here. The code is already available, and the manually labeled comment data will be released after the paper is published.
+I will gradually upload the code and data here. The code is already available ([code](./code)), and the manually labeled comment data will be released after the paper is published.
 
----
-
-main_delegation.py is used to train the model for learning the relationship between memorial titles and Delegation comments. main_isee is used to train the model for learning the relationship between memorial titles and Isee comments
